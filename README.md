@@ -83,8 +83,7 @@ flowchart LR
 ## 🌱 Background
 
 - 건국대학교 서울캠퍼스 부동산학과
-- 감정평가 프로젝트에서 3가지 평가방식의 계산·검토 및 DCF 수익방식 발표
-- 전문자격시험 준비 경험 이후 AI 엔지니어로 직무 전환
+- 부동산 법규·고시를 읽고 판단 기준으로 정리하는 도메인 이해 — [허위매물 탐지 어시스턴트](https://github.com/ysl727727/real-estate-fake-listing-detector)에서 국토부 표시·광고 기준을 평가 문항으로 설계
 - KANT Private LLM 엔지니어 교육과정 참여
 
 ## 💡 What I Value
