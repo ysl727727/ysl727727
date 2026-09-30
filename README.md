@@ -49,7 +49,7 @@ Keyword baseline과 TF-IDF 검색을 구현하고 Precision@3, MRR로 성능을 
 
 - `gemma3:4b`와 `qwen3:4b-instruct` 비교 — 파라미터 규모(4B)와 양자화(Q4_K_M)를 맞춰 공정하게 비교
 - 정상·경계·범위밖 10문항, 총 40회 실행으로 품질과 속도 측정 (RTX 5060 Laptop, VRAM 8GB)
-- 답변 정확성 **57.0% → 80.8%**로 `qwen3:4b-instruct` 최종 선정
+- 답변 정확성 gemma3 57.0% vs **qwen3 80.8%** — `qwen3:4b-instruct` 최종 선정
 - 같은 문항을 Cloud API와도 비교해 로컬 운영이 가능한지 확인
 
 ### [📚 Today I Learned](https://github.com/ysl727727/TIL)
