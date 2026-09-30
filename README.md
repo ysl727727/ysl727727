@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4B32C3,100:0EA5E9&height=190&section=header&text=%EC%9D%B4%EC%9A%A9%EC%84%9D&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=LLM%20Engineer%20in%20Progress&descSize=20&descAlignY=58" alt="header" width="100%" />
+# 이용석
+
+`LLM Engineer in Progress`
 
 **근거를 직접 확인하고, 결과를 반복해서 검토하는**<br/>
 **신뢰할 수 있는 LLM 서비스를 만들고 운영하는 엔지니어**를 목표로 합니다.
@@ -88,7 +90,5 @@ flowchart LR
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=ysl727727&theme=default&hide_border=true&locale=ko" alt="GitHub streak" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:4B32C3&height=110&section=footer" alt="footer" width="100%" />
 
 </div>
