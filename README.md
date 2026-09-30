@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:1F2A44&height=150&text=%EC%9D%B4%EC%9A%A9%EC%84%9D&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=LLM%20Engineer%20in%20Progress&descSize=16&descAlignY=68" alt="이용석 · LLM Engineer in Progress" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:1F2A44&height=150&text=Yongseok%20Lee&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=LLM%20Engineer%20in%20Progress&descSize=16&descAlignY=68" alt="Yongseok Lee · LLM Engineer in Progress" width="100%" />
 
 실제로 쓰이는 LLM 서비스를 만들고, 오래 안정적으로 운영하는 엔지니어를 목표로 공부하고 있습니다.
 
