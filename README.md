@@ -35,6 +35,15 @@ KANT Private LLM 엔지니어 교육과정에서 머신러닝 기초부터 RAG, 
 
 ## 📌 Featured Work
 
+### 🏗️ 입주자모집공고문 Q&A 챗봇 `진행 중`
+
+청약홈 입주자모집공고문 PDF를 읽고 분양가·일정·대출·특별공급 조건을 답하는 로컬 LLM 챗봇입니다.
+
+- 공고문 30건 수집, 평가용 정답셋 20건을 직접 설계·구축 (스키마 → 검수 → 감사)
+- 숫자는 LLM이 아니라 코드로 계산하고, 답변마다 공고문 원문 문장을 함께 제시
+- FastAPI + Ollama 로컬 서빙, Docker 구성 (vLLM으로 바꿔 끼울 수 있게 설계)
+- PDF 표 읽기 방법 20가지(규칙 기반 4 · LLM 16) 비교 실험 중
+
 ### [🔍 Document Search Project](https://github.com/ysl727727/doc-search-project)
 
 Keyword baseline과 TF-IDF 검색을 구현하고 Precision@3, MRR로 성능을 비교한 문서 검색 프로젝트입니다.
