@@ -2,8 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:1F2A44&height=150&text=%EC%9D%B4%EC%9A%A9%EC%84%9D&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=LLM%20Engineer%20in%20Progress&descSize=16&descAlignY=68" alt="이용석 · LLM Engineer in Progress" width="100%" />
 
-**근거를 직접 확인하고, 결과를 반복해서 검토하는**<br/>
-**신뢰할 수 있는 LLM 서비스를 만들고 운영하는 엔지니어**를 목표로 합니다.
+실제로 쓰이는 LLM 서비스를 만들고, 오래 안정적으로 운영하는 엔지니어를 목표로 공부하고 있습니다.
 
 [![TIL](https://img.shields.io/badge/TIL-%ED%95%99%EC%8A%B5%20%EA%B8%B0%EB%A1%9D-4B32C3?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/TIL)
 [![Document Search](https://img.shields.io/badge/Project-Document%20Search-0EA5E9?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/doc-search-project)
@@ -12,8 +11,8 @@
 
 ## 👋 About
 
-KANT의 Private LLM 엔지니어 교육과정에서 머신러닝 기초부터 RAG, AI Agent, LLMOps와 LLM 서빙까지 단계적으로 학습하고 있습니다.
-장기적으로는 부동산 도메인 지식과 LLM 기술을 연결해, **출처와 기준시점을 제시하고 불확실성을 구분하는 서비스**를 만들고 싶습니다.
+KANT Private LLM 엔지니어 교육과정에서 머신러닝 기초부터 RAG, AI Agent, LLMOps, 모델 서빙까지 차근차근 배우고 있습니다.
+부동산학을 전공했고, 그 경험을 살려 부동산 실무에 실제로 도움이 되는 LLM 서비스를 만드는 것이 목표입니다.
 
 ## 🔭 Current Focus
 
@@ -80,7 +79,7 @@ flowchart LR
 
 ## 💡 What I Value
 
-- 근거가 부족한 부분을 추측으로 넘기지 않습니다.
+- 모르는 부분은 추측하지 않고 직접 확인합니다.
 - 높은 숫자 하나보다 문제 비용에 맞는 평가 기준을 먼저 정의합니다.
 - 결과뿐 아니라 가정, 실험 과정과 실패 사례를 함께 기록합니다.
 - 오류를 재현하고 사용자 피드백을 개선으로 연결하는 운영을 지향합니다.
