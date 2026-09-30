@@ -1,8 +1,6 @@
 <div align="center">
 
-# 이용석
-
-`LLM Engineer in Progress`
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:1F2A44&height=150&text=%EC%9D%B4%EC%9A%A9%EC%84%9D&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=LLM%20Engineer%20in%20Progress&descSize=16&descAlignY=68" alt="이용석 · LLM Engineer in Progress" width="100%" />
 
 **근거를 직접 확인하고, 결과를 반복해서 검토하는**<br/>
 **신뢰할 수 있는 LLM 서비스를 만들고 운영하는 엔지니어**를 목표로 합니다.
