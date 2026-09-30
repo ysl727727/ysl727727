@@ -43,6 +43,15 @@ Keyword baseline과 TF-IDF 검색을 구현하고 Precision@3, MRR로 성능을 
 - 검색 평가 세트와 Precision@3, MRR 적용
 - 실패 사례 분석 및 title weighting 실험
 
+### [🏠 부동산 허위매물 탐지 어시스턴트 — 로컬 LLM 선정](https://github.com/ysl727727/real-estate-fake-listing-detector)
+
+매물 광고가 국토교통부 표시·광고 기준에 어긋나는지 판정하는 어시스턴트를 가정하고, 이 업무에 맞는 로컬 모델을 직접 실험해 골랐습니다.
+
+- `gemma3:4b`와 `qwen3:4b-instruct` 비교 — 파라미터 규모(4B)와 양자화(Q4_K_M)를 맞춰 공정하게 비교
+- 정상·경계·범위밖 10문항, 총 40회 실행으로 품질과 속도 측정 (RTX 5060 Laptop, VRAM 8GB)
+- 답변 정확성 **57.0% → 80.8%**로 `qwen3:4b-instruct` 최종 선정
+- 같은 문항을 Cloud API와도 비교해 로컬 운영이 가능한지 확인
+
 ### [📚 Today I Learned](https://github.com/ysl727727/TIL)
 
 Private LLM 엔지니어 교육과정에서 배우고 직접 검증한 내용을 기록합니다. 실습은 직접 실행하고 설명할 수 있을 때만 완료로 표시합니다.
