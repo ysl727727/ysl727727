@@ -89,6 +89,9 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ysl727727&theme=default&hide_border=true&locale=ko" alt="GitHub streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ysl727727&theme=dark&hide_border=true&background=0D1117&locale=ko" />
+  <img src="https://streak-stats.demolab.com?user=ysl727727&theme=default&hide_border=true&locale=ko" alt="GitHub streak" />
+</picture>
 
 </div>
