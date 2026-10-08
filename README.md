@@ -1,31 +1,34 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:161B22,100:1F2A44&height=150&text=Yongseok%20Lee&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=LLM%20Engineer%20in%20Progress&descSize=16&descAlignY=68" alt="Yongseok Lee · LLM Engineer in Progress" width="100%" />
+## Yongseok Lee · LLM Engineer in Progress
 
+Building LLM services that people actually use — and keeping them running reliably.<br/>
 실제로 쓰이는 LLM 서비스를 만들고, 오래 안정적으로 운영하는 엔지니어를 목표로 공부하고 있습니다.
 
-[![TIL](https://img.shields.io/badge/TIL-%ED%95%99%EC%8A%B5%20%EA%B8%B0%EB%A1%9D-4B32C3?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/TIL)
+[![TIL](https://img.shields.io/badge/TIL-Today%20I%20Learned-4B32C3?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/TIL)
 [![Document Search](https://img.shields.io/badge/Project-Document%20Search-0EA5E9?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/doc-search-project)
 
 </div>
 
 ## 👋 About
 
-KANT Private LLM 엔지니어 교육과정에서 머신러닝 기초부터 RAG, AI Agent, LLMOps, 모델 서빙까지 차근차근 배우고 있습니다.
-문서 검색, 정보 추출, API 서버처럼 LLM이 실제 업무에 쓰이는 여러 영역을 직접 만들어 보며 익히고 있고,
-부동산학 전공 경험처럼 도메인 지식이 필요한 문제에도 LLM을 연결해 보는 데 관심이 많습니다.
+I'm working through the KANT Private LLM Engineer program, step by step from machine-learning fundamentals to RAG, AI agents, LLMOps and model serving.
+I learn by building the pieces LLMs need in real work — document search, information extraction and API servers.
+부동산학 전공 경험을 살려, 도메인 지식이 필요한 문제에 LLM을 연결해 보는 데 관심이 많습니다.
 
 ## 🔭 Current Focus
 
-- **LLM 애플리케이션 구조** — LangChain의 Prompt → Model → Parser, 구조화된 출력과 결과 검증
-- **LLM을 붙이는 백엔드** — FastAPI + Pydantic으로 문서 등록·조회·질문 API 설계
-- **안정적인 외부 호출** — timeout, 제한된 재시도, Backoff + Jitter, fallback 설계
-- **재현 가능한 실험** — baseline 비교, train / validation / test 분리, 누수 방지, 실험 기록
-- **배포** — AWS DevOps 특강(배포까지 해내는 개발자) 병행
+지금은 LLM을 실제 서비스로 연결하는 구조와 안정적인 운영 방법에 집중하고 있습니다.
+
+- **LLM application structure** — LangChain Prompt → Model → Parser, structured output and validation
+- **Backends for LLMs** — designing document, query and Q&A APIs with FastAPI + Pydantic
+- **Reliable external calls** — timeouts, bounded retries, backoff + jitter, fallbacks
+- **Reproducible experiments** — baselines, train / validation / test splits, leakage checks, experiment logs
+- **Deployment** — AWS DevOps course (배포까지 해내는 개발자) in parallel
 
 ## 🛠️ Tech Stack
 
-| 분야 | 기술 |
+| Area | Stack |
 | --- | --- |
 | Language | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) |
 | Data · ML | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
@@ -35,44 +38,45 @@ KANT Private LLM 엔지니어 교육과정에서 머신러닝 기초부터 RAG, 
 
 ## 📌 Featured Work
 
-### 🏗️ 입주자모집공고문 Q&A 챗봇 `진행 중`
+### 🏗️ Housing Notice Q&A Chatbot `In progress`
 
-청약홈 입주자모집공고문 PDF를 읽고 분양가·일정·대출·특별공급 조건을 답하는 로컬 LLM 챗봇입니다.
+청약홈 입주자모집공고문 PDF를 읽고 분양가·일정·대출·특별공급 조건에 답하는 로컬 LLM 챗봇입니다.
 
-- 공고문 30건 수집, 평가용 정답셋 20건 구축 (스키마 설계 → 검수 → 감사)
-- 숫자는 LLM이 아니라 코드로 계산하고, 답변마다 공고문 원문 문장을 함께 제시
-- FastAPI + Ollama 로컬 서빙, Docker 구성 (vLLM으로 바꿔 끼울 수 있게 설계)
-- PDF 표 읽기 방법 20가지(규칙 기반 4 · LLM 16) 비교 실험 중
+- Collected 30 notices and built a 20-item evaluation answer set (schema design → review → audit)
+- Numbers are calculated in code, not by the LLM, and every answer cites the original sentence from the notice
+- Local serving with FastAPI + Ollama in Docker, designed so vLLM can be swapped in
+- Comparing 20 ways to read PDF tables (4 rule-based · 16 LLM-based)
+- 공고문마다 표 형식이 달라서, 어떤 방법이 가장 정확한지 직접 비교하고 있습니다.
 
 ### [🔍 Document Search Project](https://github.com/ysl727727/doc-search-project)
 
-Keyword baseline과 TF-IDF 검색을 구현하고 Precision@3, MRR로 성능을 비교한 문서 검색 프로젝트입니다.
+Keyword baseline과 TF-IDF 검색을 구현하고 Precision@3, MRR로 성능을 비교한 프로젝트입니다.
 
-- 텍스트 전처리 및 TF-IDF 벡터화
-- NumPy 기반 cosine similarity 구현
-- 검색 평가 세트와 Precision@3, MRR 적용
-- 실패 사례 분석 및 title weighting 실험
+- Text preprocessing and TF-IDF vectorization
+- Cosine similarity implemented with NumPy
+- Search evaluation set with Precision@3 and MRR
+- Failure-case analysis and title-weighting experiments
 
-### [🏠 부동산 허위매물 탐지 어시스턴트 — 로컬 LLM 선정](https://github.com/ysl727727/real-estate-fake-listing-detector)
+### [🏠 Fake Real-Estate Listing Detector — Choosing a Local LLM](https://github.com/ysl727727/real-estate-fake-listing-detector)
 
-매물 광고가 국토교통부 표시·광고 기준에 어긋나는지 판정하는 어시스턴트를 가정하고, 이 업무에 맞는 로컬 모델을 직접 실험해 골랐습니다.
+매물 광고가 국토교통부 표시·광고 기준에 어긋나는지 판정하는 어시스턴트를 가정하고, 맞는 로컬 모델을 실험으로 골랐습니다.
 
-- `gemma3:4b`와 `qwen3:4b-instruct` 비교 — 파라미터 규모(4B)와 양자화(Q4_K_M)를 맞춰 공정하게 비교
-- 정상·경계·범위밖 10문항, 총 40회 실행으로 품질과 속도 측정 (RTX 5060 Laptop, VRAM 8GB)
-- 답변 정확성 gemma3 57.0% vs **qwen3 80.8%** — `qwen3:4b-instruct` 최종 선정
-- 같은 문항을 Cloud API와도 비교해 로컬 운영이 가능한지 확인
+- Compared `gemma3:4b` and `qwen3:4b-instruct` at the same size (4B) and quantization (Q4_K_M)
+- 10 questions (normal · edge · out-of-scope), 40 runs in total, measuring quality and speed (RTX 5060 Laptop, 8 GB VRAM)
+- Answer accuracy: gemma3 57.0% vs **qwen3 80.8%** — selected `qwen3:4b-instruct`
+- Ran the same questions against a cloud API to check whether local operation is viable
 
 ### [📚 Today I Learned](https://github.com/ysl727727/TIL)
 
-Private LLM 엔지니어 교육과정에서 배우고 직접 검증한 내용을 기록합니다. 실습은 직접 실행하고 설명할 수 있을 때만 완료로 표시합니다.
+KANT 과정에서 배우고 직접 검증한 내용을 기록합니다. Exercises are marked done only when I have run them and can explain them.
 
-| 트랙 | 기록 범위 |
+| Track | Coverage |
 | --- | --- |
-| 머신러닝 | 모델 평가, 앙상블, 편향·분산, 불균형·교차검증, CV 튜닝 |
-| 딥러닝 기초·심화 | PyTorch, MLP·CNN·RNN, Attention, Tokenization, Fine-tuning, PEFT |
-| LLM 실전 | Logit·Loss·Optimizer, 안정적인 LLM API 호출 |
-| 데이터 엔지니어링 | API 수집, 정제와 RAG 문서셋, FastAPI·Pydantic, 비동기 호출 |
-| LangChain | 앱 구조, Prompt Template, Output Parser |
+| Machine Learning | Model evaluation, ensembles, bias–variance, imbalance & cross-validation, CV tuning |
+| Deep Learning | PyTorch, MLP · CNN · RNN, Attention, tokenization, fine-tuning, PEFT |
+| LLM in Practice | Logits · loss · optimizers, reliable LLM API calls |
+| Data Engineering | API collection, cleaning & RAG document sets, FastAPI · Pydantic, async calls |
+| LangChain | App structure, prompt templates, output parsers, LCEL, retrievers |
 
 ## 🗺️ Learning Roadmap
 
@@ -91,9 +95,9 @@ flowchart LR
 
 ## 🌱 Background
 
-- 건국대학교 서울캠퍼스 부동산학과
+- B.A. in Real Estate, Konkuk University, Seoul (건국대학교 서울캠퍼스 부동산학과)
 - 부동산 법규·고시를 읽고 판단 기준으로 정리하는 도메인 이해 — [허위매물 탐지 어시스턴트](https://github.com/ysl727727/real-estate-fake-listing-detector)에서 국토부 표시·광고 기준을 평가 문항으로 설계
-- KANT Private LLM 엔지니어 교육과정 참여
+- KANT Private LLM Engineer program
 
 ## 💡 What I Value
 
@@ -105,8 +109,8 @@ flowchart LR
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ysl727727&theme=dark&hide_border=true&background=0D1117&locale=ko" />
-  <img src="https://streak-stats.demolab.com?user=ysl727727&theme=default&hide_border=true&locale=ko" alt="GitHub streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ysl727727&theme=dark&hide_border=true&background=0D1117" />
+  <img src="https://streak-stats.demolab.com?user=ysl727727&theme=default&hide_border=true" alt="GitHub streak" />
 </picture>
 
 </div>
