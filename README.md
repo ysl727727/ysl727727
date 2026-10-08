@@ -1,10 +1,5 @@
 <div align="center">
 
-## Yongseok Lee · LLM Engineer in Progress
-
-Building LLM services that people actually use — and keeping them running reliably.<br/>
-실제로 쓰이는 LLM 서비스를 만들고, 오래 안정적으로 운영하는 엔지니어를 목표로 공부하고 있습니다.
-
 [![TIL](https://img.shields.io/badge/TIL-Today%20I%20Learned-4B32C3?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/TIL)
 [![Document Search](https://img.shields.io/badge/Project-Document%20Search-0EA5E9?style=flat-square&logo=github&logoColor=white)](https://github.com/ysl727727/doc-search-project)
 
